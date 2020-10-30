@@ -23,7 +23,7 @@ func Receiver(v interface{}){
 func main() {
 	var x interface{}
 	fmt.Println("请输入：")
-	x = 5
+	x = 1024
 	fmt.Scanln(&x)
 	Receiver(x)
 }
